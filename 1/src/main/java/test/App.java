@@ -1,6 +1,6 @@
 package test;
 
-import test.model.Customer;
+import test.model.CustomerRefactored;
 
 /**
  * Hello world!
@@ -10,7 +10,7 @@ public class App
 {
     public static void main( String[] args )
     {
-    	Customer f=new Customer();
+    	CustomerRefactored f=new CustomerRefactored();
         System.out.println( "Hello World!" );
     }
 }
